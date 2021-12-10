@@ -1,0 +1,56 @@
+part of 'register_bloc.dart';
+
+@freezed
+abstract class RegisterState with _$RegisterState {
+  const factory RegisterState({
+    EmailAddress emailAddress,
+    Password password,
+    Password confirmPassword,
+    PhoneNumber phoneNumber,
+    OTP otp,
+    Name name,
+    bool acceptedTerms,
+    bool acceptedPrivacy,
+    bool isSubmitting,
+    bool emailAvailable,
+    bool phoneNumberAvailable,
+    bool privacy,
+    bool medios,
+    bool arePasswordsSame,
+    bool finishedRegister,
+    bool otpSent,
+    bool isRetrieving,
+    bool allowedGeoreferencing,
+    int timesAskedGeo,
+    String emailByPhone,
+    Option<Either<BaseFailure, bool>> emailConfirmedOption,
+    Option<Either<BaseFailure, bool>> phoneConfirmedOption,
+    Option<Either<BaseFailure, bool>> registerOption,
+    Option<Either<BaseFailure, bool>> changePasswordOption,
+  }) = _RegisterState;
+
+  factory RegisterState.initial() => RegisterState(
+        emailAddress: EmailAddress(''),
+        password: Password(''),
+        confirmPassword: Password(''),
+        phoneNumber: PhoneNumber(''),
+        otp: OTP(''),
+        name: Name(''),
+        emailByPhone: "",
+        acceptedTerms: false,
+        arePasswordsSame: true,
+        emailAvailable: true,
+        phoneNumberAvailable: true,
+        isSubmitting: false,
+        acceptedPrivacy: false,
+        finishedRegister: false,
+        otpSent: false,
+        isRetrieving: false,
+        allowedGeoreferencing: false,
+        timesAskedGeo: 0,
+        emailConfirmedOption: none(),
+        phoneConfirmedOption: none(),
+        registerOption: none(),
+        changePasswordOption: none(),
+      );
+}

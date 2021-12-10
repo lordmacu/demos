@@ -1,0 +1,117 @@
+{
+    "Result": true,
+    "Message": null,
+    "data": {
+        "Content": [
+            {
+                "id": 0,
+                "name": "FIC Old Mutual Efectivo",
+                "folder": "founds",
+                "img": "skandia",
+                "distribution": "",
+                "color": "",
+                "rent": [
+                    {
+                        "name": "Renta fija"
+                    },
+                    {
+                        "name": "Depósito a la vista"
+                    }
+                ]
+            },
+            {
+                "id": 1,
+                "name": "FIC Fonval",
+                "folder": "founds",
+                "img": "credicorp",
+                "distribution": "",
+                "color": "",
+                "rent": [
+                    {
+                        "name": "Renta fija"
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "name": "FIC Fonval Acciones",
+                "folder": "founds",
+                "img": "credicorp",
+                "distribution": "",
+                "color": "",
+                "rent": [
+                    {
+                        "name": "Renta Variable: Acciones"
+                    },
+                    {
+                        "name": "Renta fija"
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "name": "FIC BTG Pactual Acciones Colombia",
+                "folder": "founds",
+                "img":"pactual",
+                "distribution": "",
+                "color": "",
+                "rent": [
+                    {
+                        "name": "Renta Variable: Acciones"
+                    },
+                    {
+                        "name": "Otros"
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "name": "Fondo Alianza Renta Fija",
+                "folder": "founds",
+                "img": "alianza",
+                "distribution": "",
+                "color": "",
+                "rent": [
+                    {
+                        "name": "Renta Fija Local"
+                    },
+                    {
+                        "name": "Renta Fija Internacional"
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "name": "FIC Occirenta",
+                "folder": "founds",
+                "img": "fiduoccidente",
+                "distribution": "",
+                "color": "",
+                "rent": [
+                    {
+                        "name": "Renta Fija"
+                    },
+                    {
+                        "name": "Renta Variable: FIC"
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "name": "Fondo Balanceo Internacional",
+                "folder": "founds",
+                "img": "fiduoccidente",
+                "distribution": "",
+                "color": "",
+                "rent": [
+                    {
+                        "name": "Renta Fija"
+                    },
+                    {
+                        "name": "Renta Variable"
+                    }
+                ]
+            }
+        ]
+    }
+}

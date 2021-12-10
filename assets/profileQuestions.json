@@ -1,0 +1,516 @@
+{
+    "Result": true,
+    "Message": null,
+    "Data": {
+        "Content": [
+            {
+                "_id": "5a0b4c55e6663437549830ce",
+                "ScoreType": 0,
+                "ResponseScopeType": 1,
+                "ValueScope": 0,
+                "ValueType": 4,
+                "Order": 1,
+                "ValueTypeText": "Range",
+                "QuestionCaptions": [
+                    {
+                        "Caption": "¿Cuál es tu ingreso mensual?",
+                        "Order": 0,
+                        "Responses": [
+                            {
+                                "Number": 1,
+                                "Value": "50.000 - 799.999",
+                                "Score": 1.0,
+                                "ScoreType": 1,
+                                "ValueType": 4,
+                                "WeightedValue": 5.0
+                            },
+                            {
+                                "Number": 2,
+                                "Value": "800.000 - 2.999.999",
+                                "Score": 2.0,
+                                "ScoreType": 1,
+                                "ValueType": 4,
+                                "WeightedValue": 10.0
+                            },
+                            {
+                                "Number": 3,
+                                "Value": "3.000.000 - 10.000.000",
+                                "Score": 3.0,
+                                "ScoreType": 1,
+                                "ValueType": 4,
+                                "WeightedValue": 15.0
+                            },
+                            {
+                                "Number": 4,
+                                "Value": "> 10.000.000",
+                                "Score": 4.0,
+                                "ScoreType": 1,
+                                "ValueType": 4,
+                                "WeightedValue": 20.0
+                            }
+                        ],
+                        "PossibleResponses": [
+                            {
+                                "Number": 1,
+                                "Value": "50.000 - 799.999",
+                                "Score": 1.0,
+                                "ScoreType": 1,
+                                "ValueType": 4,
+                                "WeightedValue": 5.0
+                            },
+                            {
+                                "Number": 2,
+                                "Value": "800.000 - 2.999.999",
+                                "Score": 2.0,
+                                "ScoreType": 1,
+                                "ValueType": 4,
+                                "WeightedValue": 10.0
+                            },
+                            {
+                                "Number": 3,
+                                "Value": "3.000.000 - 10.000.000",
+                                "Score": 3.0,
+                                "ScoreType": 1,
+                                "ValueType": 4,
+                                "WeightedValue": 15.0
+                            },
+                            {
+                                "Number": 4,
+                                "Value": "> 10.000.000",
+                                "Score": 4.0,
+                                "ScoreType": 1,
+                                "ValueType": 4,
+                                "WeightedValue": 20.0
+                            }
+                        ],
+                        "ValidationsRules": null
+                    }
+                ],
+                "QuestionCaptionsCount": 1
+            },
+            {
+                "_id": "5a0b4c43e6663437549830cd",
+                "ScoreType": 0,
+                "ResponseScopeType": 1,
+                "ValueScope": 0,
+                "ValueType": 4,
+                "Order": 2,
+                "ValueTypeText": "Range",
+                "QuestionCaptions": [
+                    {
+                        "Caption": "Qué porcentaje de ese ingreso podrías destinar a ahorro o inversión",
+                        "Order": 0,
+                        "Responses": [
+                            {
+                                "Number": 1,
+                                "Value": "1% - 10%",
+                                "Score": 1.0,
+                                "ScoreType": 1,
+                                "ValueType": 4,
+                                "WeightedValue": 5.0
+                            },
+                            {
+                                "Number": 2,
+                                "Value": "30% - 40%",
+                                "Score": 2.0,
+                                "ScoreType": 1,
+                                "ValueType": 4,
+                                "WeightedValue": 10.0
+                            },
+                            {
+                                "Number": 3,
+                                "Value": "40% - 50%",
+                                "Score": 3.0,
+                                "ScoreType": 1,
+                                "ValueType": 4,
+                                "WeightedValue": 15.0
+                            },
+                            {
+                                "Number": 4,
+                                "Value": "> 50%",
+                                "Score": 4.0,
+                                "ScoreType": 1,
+                                "ValueType": 4,
+                                "WeightedValue": 20.0
+                            }
+                        ],
+                        "PossibleResponses": [
+                            {
+                                "Number": 1,
+                                "Value": "1% - 10%",
+                                "Score": 1.0,
+                                "ScoreType": 1,
+                                "ValueType": 4,
+                                "WeightedValue": 5.0
+                            },
+                            {
+                                "Number": 2,
+                                "Value": "30% - 40%",
+                                "Score": 2.0,
+                                "ScoreType": 1,
+                                "ValueType": 4,
+                                "WeightedValue": 10.0
+                            },
+                            {
+                                "Number": 3,
+                                "Value": "40% - 50%",
+                                "Score": 3.0,
+                                "ScoreType": 1,
+                                "ValueType": 4,
+                                "WeightedValue": 15.0
+                            },
+                            {
+                                "Number": 4,
+                                "Value": "> 50%",
+                                "Score": 4.0,
+                                "ScoreType": 1,
+                                "ValueType": 4,
+                                "WeightedValue": 20.0
+                            }
+                        ],
+                        "ValidationsRules": null
+                    }
+                ],
+                "QuestionCaptionsCount": 1
+            },
+            {
+                "_id": "5a0b4c2ae6663437549830cb",
+                "ScoreType": 0,
+                "ResponseScopeType": 0,
+                "ValueScope": 0,
+                "ValueType": 4,
+                "Order": 3,
+                "ValueTypeText": "Range",
+                "QuestionCaptions": [
+                    {
+                        "Caption": "Hablemos de tus hábitos financieros, ¿En este momento ahorras o inviertes?",
+                        "Order": 0,
+                        "Responses": [
+                            {
+                                "Number": 1,
+                                "Value": "¿Ahorrar o Invertir? ¿Qué es eso?",
+                                "EmojiValue": "face_with_raised_eyebrow",
+                                "Score": 1.0,
+                                "ScoreType": 1,
+                                "ValueType": 4,
+                                "WeightedValue": 5.0
+                            },
+                            {
+                                "Number": 2,
+                                "Value": "Sí, ahorro",
+                                "EmojiValue": "sunglasses",
+                                "Score": 0.75,
+                                "ScoreType": 1,
+                                "ValueType": 4,
+                                "WeightedValue": 10.0
+                            },
+                            {
+                                "Number": 3,
+                                "Value": "Ahorro para invertir",
+                                "EmojiValue": "nerd_face",
+                                "Score": 0.25,
+                                "ScoreType": 1,
+                                "ValueType": 4,
+                                "WeightedValue": 15.0
+                            },
+                            {
+                                "Number": 4,
+                                "Value": "Sí, invierto",
+                                "EmojiValue": "money_mouth_face",
+                                "Score": 0.5,
+                                "ScoreType": 1,
+                                "ValueType": 4,
+                                "WeightedValue": 20.0
+                            }
+                        ],
+                        "PossibleResponses": [
+                            {
+                                "Number": 1,
+                                "Value": "¿Ahorrar o Invertir? ¿Qué es eso?",
+                                "EmojiValue": "face_with_raised_eyebrow",
+                                "Score": 1.0,
+                                "ScoreType": 1,
+                                "ValueType": 4,
+                                "WeightedValue": 5.0
+                            },
+                            {
+                                "Number": 2,
+                                "Value": "Sí, ahorro",
+                                "EmojiValue": "sunglasses",
+                                "Score": 0.75,
+                                "ScoreType": 1,
+                                "ValueType": 4,
+                                "WeightedValue": 10.0
+                            },
+                            {
+                                "Number": 3,
+                                "Value": "Ahorro para invertir",
+                                "EmojiValue": "nerd_face",
+                                "Score": 0.25,
+                                "ScoreType": 1,
+                                "ValueType": 4,
+                                "WeightedValue": 15.0
+                            },
+                            {
+                                "Number": 4,
+                                "Value": "Sí, invierto",
+                                "EmojiValue": "money_mouth_face",
+                                "Score": 0.5,
+                                "ScoreType": 1,
+                                "ValueType": 4,
+                                "WeightedValue": 20.0
+                            }
+                        ],
+                        "ValidationsRules": null
+                    }
+                ],
+                "QuestionCaptionsCount": 1
+            },
+            {
+                "_id": "5dc1ed65446d6d6b54ae6f2e",
+                "ScoreType": 0,
+                "ResponseScopeType": 0,
+                "ValueScope": 0,
+                "ValueType": 4,
+                "Order": 4,
+                "ValueTypeText": "Range",
+                "QuestionCaptions": [
+                    {
+                        "Caption": "Si hicieras una inversión considerable y tu dinero empieza a tener variaciones, ¿Qué harías?",
+                        "Order": 0,
+                        "Responses": [
+                            {
+                                "Number": 1,
+                                "Value": "Retirar mi inversión, no estoy dispuesto a perder",
+                                "EmojiValue": "woman-running",
+                                "Score": 1.0,
+                                "ScoreType": 1,
+                                "ValueType": 4,
+                                "WeightedValue": 5.0
+                            },
+                            {
+                                "Number": 2,
+                                "Value": "Sería paciente si me explican a qué se debe la veriación",
+                                "EmojiValue": "person_in_lotus_position",
+                                "Score": 2.0,
+                                "ScoreType": 1,
+                                "ValueType": 4,
+                                "WeightedValue": 10.0
+                            },
+                            {
+                                "Number": 3,
+                                "Value": "Entiendo que es normal perder o ganar según el comportamiento del mercado",
+                                "EmojiValue": "woman-shrugging",
+                                "Score": 3.0,
+                                "ScoreType": 1,
+                                "ValueType": 4,
+                                "WeightedValue": 15.0
+                            },
+                            {
+                                "Number": 4,
+                                "Value": "Tengo mayor interés por el comportamiento a largo plazo",
+                                "EmojiValue": "female-technologist",
+                                "Score": 4.0,
+                                "ScoreType": 1,
+                                "ValueType": 4,
+                                "WeightedValue": 20.0
+                            }
+                        ],
+                        "PossibleResponses": [
+                            {
+                                "Number": 1,
+                                "Value": "Retirar mi inversión, no estoy dispuesto a perder",
+                                "EmojiValue": "woman-running",
+                                "Score": 1.0,
+                                "ScoreType": 1,
+                                "ValueType": 4,
+                                "WeightedValue": 5.0
+                            },
+                            {
+                                "Number": 2,
+                                "Value": "Sería paciente si me explican a qué se debe la veriación",
+                                "EmojiValue": "person_in_lotus_position",
+                                "Score": 2.0,
+                                "ScoreType": 1,
+                                "ValueType": 4,
+                                "WeightedValue": 10.0
+                            },
+                            {
+                                "Number": 3,
+                                "Value": "Entiendo que es normal perder o ganar según el comportamiento del mercado",
+                                "EmojiValue": "woman-shrugging",
+                                "Score": 3.0,
+                                "ScoreType": 1,
+                                "ValueType": 4,
+                                "WeightedValue": 15.0
+                            },
+                            {
+                                "Number": 4,
+                                "Value": "Tengo mayor interés por el comportamiento a largo plazo",
+                                "EmojiValue": "female-technologist",
+                                "Score": 4.0,
+                                "ScoreType": 1,
+                                "ValueType": 4,
+                                "WeightedValue": 20.0
+                            }
+                        ],
+                        "ValidationsRules": null
+                    }
+                ],
+                "QuestionCaptionsCount": 1
+            },
+            {
+                "_id": "5dc1ef76446d6d6b54ae6f2f",
+                "ScoreType": 0,
+                "ResponseScopeType": 0,
+                "ValueScope": 0,
+                "ValueType": 5,
+                "Order": 5,
+                "ValueTypeText": "Check",
+                "QuestionCaptions": [
+                    {
+                        "Caption": "¿Con qué productos financieros tienes actualmente?",
+                        "Order": 0,
+                        "Responses": [
+                            {
+                                "Number": 1,
+                                "Value": "Cuenta Bancaria/Depósito (ahorros, corriente, digital).",
+                                "EmojiValue" : "moneybag",
+                                "Score": 0.75,
+                                "ScoreType": 1,
+                                "ValueType": 4,
+                                "WeightedValue": 5.0
+                            },
+                            {
+                                "Number": 2,
+                                "Value": "CDT.",
+                                "EmojiValue" : "memo",
+                                "Score": 0.5,
+                                "ScoreType": 1,
+                                "ValueType": 4,
+                                "WeightedValue": 5.0
+                            },
+                            {
+                                "Number": 3,
+                                "Value": "Seguros (diferente al SOAT).",
+                                "EmojiValue" : "closed_lock_with_key",
+                                "Score": 0.75,
+                                "ScoreType": 1,
+                                "ValueType": 4,
+                                "WeightedValue": 10.0
+                            },
+                            {
+                                "Number": 4,
+                                "Value": "Créditos",
+                                "EmojiValue" : "bar_chart",
+                                "Score": 1.0,
+                                "ScoreType": 1,
+                                "ValueType": 4,
+                                "WeightedValue": 15.0
+                            },
+                            {
+                                "Number": 5,
+                                "Value": "Tarjetas de crédito",
+                                "EmojiValue" : "credit_card",
+                                "Score": 0.25,
+                                "ScoreType": 1,
+                                "ValueType": 4,
+                                "WeightedValue": 15.0
+                            },
+                            {
+                                "Number": 6,
+                                "Value": "Acciones listada en bolsa",
+                                "EmojiValue" : "chart",
+                                "Score": 0.5,
+                                "ScoreType": 1,
+                                "ValueType": 4,
+                                "WeightedValue": 20.0
+                            },
+                            {
+                                "Number": 7,
+                                "Value": "Otro",
+                                "EmojiValue" : "question",
+                                "Score": 0.5,
+                                "ScoreType": 1,
+                                "ValueType": 4,
+                                "WeightedValue": 10.0
+                            }
+                        ],
+                        "PossibleResponses": [
+                            {
+                                "Number": 1,
+                                "Value": "Cuenta Bancaria/Depósito (ahorros, corriente, digital).",
+                                "EmojiValue" : "moneybag",
+                                "Score": 0.75,
+                                "ScoreType": 1,
+                                "ValueType": 4,
+                                "WeightedValue": 5.0
+                            },
+                            {
+                                "Number": 2,
+                                "Value": "CDT.",
+                                "EmojiValue" : "memo",
+                                "Score": 0.5,
+                                "ScoreType": 1,
+                                "ValueType": 4,
+                                "WeightedValue": 5.0
+                            },
+                            {
+                                "Number": 3,
+                                "Value": "Seguros (diferente al SOAT).",
+                                "EmojiValue" : "closed_lock_with_key",
+                                "Score": 0.75,
+                                "ScoreType": 1,
+                                "ValueType": 4,
+                                "WeightedValue": 10.0
+                            },
+                            {
+                                "Number": 4,
+                                "Value": "Créditos",
+                                "EmojiValue" : "bar_chart",
+                                "Score": 1.0,
+                                "ScoreType": 1,
+                                "ValueType": 4,
+                                "WeightedValue": 15.0
+                            },
+                            {
+                                "Number": 5,
+                                "Value": "Tarjetas de crédito",
+                                "EmojiValue" : "credit_card",
+                                "Score": 0.25,
+                                "ScoreType": 1,
+                                "ValueType": 4,
+                                "WeightedValue": 15.0
+                            },
+                            {
+                                "Number": 6,
+                                "Value": "Acciones listada en bolsa",
+                                "EmojiValue" : "chart",
+                                "Score": 0.5,
+                                "ScoreType": 1,
+                                "ValueType": 4,
+                                "WeightedValue": 20.0
+                            },
+                            {
+                                "Number": 7,
+                                "Value": "Otro",
+                                "EmojiValue" : "question",
+                                "Score": 0.5,
+                                "ScoreType": 1,
+                                "ValueType": 4,
+                                "WeightedValue": 20.0
+                            }
+                        ],
+                        "ValidationsRules": null
+                    }
+                ],
+                "QuestionCaptionsCount": 1
+            }
+        ],
+        "Response": null,
+        "Message": null,
+        "IsValid": true,
+        "HttpStatusCode": 200,
+        "result": null
+    }
+}
